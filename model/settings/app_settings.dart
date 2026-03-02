@@ -9,6 +9,8 @@ enum ThemeColor {
 
   final Color color;
   Color get backgroundColor => color.withAlpha(50);
+
+  Color? toColor() {}
 }
 
 class AppSettings {
